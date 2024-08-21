@@ -2,9 +2,8 @@ import { FC } from "react"
 import { Link } from "react-router-dom"
 import Logo from "./logo"
 import InputSearch from "./inputSearch"
-import instagram from "../assets/social/instagram.svg"
-import discord from "../assets/social/discord.svg"
-import github from "../assets/social/github.svg"
+import Contact from "./contact"
+
 
 interface INavigation {
     name: string
@@ -32,9 +31,7 @@ const headerNavigation: FC<INavigation[]> = ( navigation ) => {
             <ul className="flex py-16 gap-x-8 justify-between items-center text-2xl ">
                 { navigation.map( ( nav, index ) => <li onClick={handleSelect(index)} className="header-li text-white" key={ index }><Link to={ nav.path }>{ nav.name }</Link></li> ) }
                 <li className="mx-8">{<InputSearch />}</li>
-                <li><a className="flex justify-center items-center gap-x-2 text-white" href="#"><img src={instagram} alt="" /><span>Instagram</span></a></li>
-                <li><a className="flex justify-center items-center gap-x-2 text-white" href="#"><img src={discord} alt="" /><span>Discord</span></a></li>
-                <li><a className="flex justify-center items-center gap-x-2 text-white" href="#"><img src={github} alt="" /><span>Github</span></a></li>
+                <Contact />
             </ul>
         </nav>
     )

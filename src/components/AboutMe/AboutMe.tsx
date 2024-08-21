@@ -4,7 +4,7 @@ import Mouse from "../../ul/mouse"
 
 const AboutMe = () => {
     return (
-        <div className="flex flex-col py-32 bg-bg2 bg-about-bg">
+        <div className="flex flex-col py-32 bg-bg2 bg-about-bg bg-cover">
             <Mouse className="mb-32" />
             <div className="flex gap-x-32 justify-center items-center">
                 <div className="flex flex-col items-start">
