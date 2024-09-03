@@ -24,7 +24,8 @@ const CardProfile = () => {
                                 <p className="px-2 bg-brand-1 rounded-lg">JS</p>
                                 <p className="px-2 bg-brand-1 rounded-lg">REACT</p>
                             </div>
-                            <button className="flex mb-[37px] py-4 px-8 justify-center items-center gap-x-2 rounded-[32px] text-[20px] text-bg1 bg-white">Download CV <img src={download} alt="" /></button>
+                            <button className="flex mb-[37px] py-4 px-8 justify-center items-center gap-x-2 outline-none
+                                rounded-[32px] text-[20px] text-bg1 bg-white focus-visible:bg-brand-1 hover:bg-brand-1 active:bg-brand-2 transition duration-300 ease-in-out ">Download CV <img src={download} alt="" /></button>
                         </div>
                     </div>
                 </div>

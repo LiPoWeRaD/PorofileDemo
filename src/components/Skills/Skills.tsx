@@ -16,12 +16,12 @@ import react from "../../assets/skills/react.jpeg"
 // text-react
 const Skills = () => {
     return (
-        <div className="flex flex-col py-32 bg-bg2 bg-skills-bg bg-cover bg-no-repeat">
+        <div className="flex flex-col py-32 container mx-auto">
             <div className="relative mb-16 flex gap-x-32 justify-center">
                 <Mouse serviceCard={{ title: "Skills", description: 'I am striving to never stop learning and improving' }} />
                 <code className="absolute ml-[40%] text-[168px] leading-[193px] text-brand-1">{`</>`}</code>
             </div>
-            <div className="flex mb-[90px] justify-center items-center gap-x-32">
+            <div className="flex mb-[90px] justify-center items-center gap-x-36">
                 <ServicesCard icon={monitor} title={"web developement"} description={["HTML", "·", "CSS", "·", "JS", "·", "REACT"]} />
                 <ServicesCard icon={smartphone} title={"App developement"} description={["IOS", "·", "Android"]} />
             </div>

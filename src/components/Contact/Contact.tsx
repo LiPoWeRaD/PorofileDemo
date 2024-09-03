@@ -4,7 +4,7 @@ import send from "../../assets/social/send.svg"
 
 const Contact = () => {
     return (
-        <div className="flex pb-[63px] pt-32 flex-col justify-center items-center gap-y-16 bg-bg2">
+        <div className="flex pb-[63px] pt-32 flex-col justify-center items-center gap-y-16 container mx-auto">
             <div className="relative flex justify-center">
                 <Mouse textCenter={true} serviceCard={{ title: "Contact", description: 'I’m currently available for freelance work' }}  />
             </div>
@@ -18,7 +18,7 @@ const Contact = () => {
                         <Input className="w-2/5" name="Your email *" placeholder="Enter your email" />
                         <Input className="w-full" name="Yuour message *" placeholder="Enter your message" />
                     </div>
-                    <button className="flex justify-center self-center items-center gap-x-4 text-[20px] leading-[24px] text-bg1 bg-brand-1 px-10 py-4 rounded-[40px]">Send Message<img className="w-[24px] h-[24px]" src={send} alt="" /></button>
+                    <button className="flex justify-center self-center items-center gap-x-4 text-[20px] leading-[24px] text-bg1 bg-brand-1 px-10 py-4 rounded-[40px] focus-visible:bg-brand-2 hover:bg-brand-2 active:bg-brand-3 transition duration-300 ease-in-out">Send Message<img className="w-[24px] h-[24px]" src={send} alt="" /></button>
                 </form>
             </div>
             

@@ -1,0 +1,156 @@
+{
+    "Blogs": [
+        {
+            "id": 0,
+            "title": "What does it take to become a web developer? 1",
+            "content": [
+                ["description", "Web development, also known as website development, encompasses a variety of tasks and processes involved in creating websites for the internet. It involves various specialized fields, each with its own set of skills and techniques. While some individuals might view web development as a holistic process, it can be broken down into several key areas that are essential for building a functional and visually appealing website. "],
+                ["Frontend Development", "Frontend development focuses on the user-facing aspects of a website. It involves creating the visual elements that users interact with directly. Frontend developers use a combination of languages such as HTML, CSS, and JavaScript to build and style the layout, design, and interactivity of the website. They need to have a strong understanding of user experience (UX) and user interface (UI) design to ensure that the website is both aesthetically pleasing and user-friendly. "],
+                ["Backend Development", "Backend development involves the behind-the-scenes functionality of a website. It includes server-side scripting, databases, and the logic that operates behind the scenes to ensure that the frontend works smoothly. Backend developers work with programming languages such as Ruby, Python, PHP, and Java, and frameworks such as Node.js, Django, and Laravel. They are responsible for building and maintaining the server, application, and database that power the website. "],
+                ["DevOps (Development and Operations)", "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). DevOps professionals work to shorten the systems development life cycle and provide continuous delivery with high software quality. They utilize various tools to automate the software development process, including coding, building, testing, and deployment. DevOps engineers often work closely with both frontend and backend developers to ensure a smooth and efficient development and deployment process."],
+                ["Design", "Design is a crucial aspect of web development that focuses on creating visually appealing and intuitive interfaces. Web designers use their creative skills to develop the overall look and feel of a website. They work with graphic design tools and software to create layouts, color schemes, typography, and other visual elements that contribute to the overall user experience. Good design is essential for attracting and retaining users on a website. Understanding and mastering these four key areas of web development can open up numerous career opportunities in the ever-evolving field of technology. It is important for web developers to stay updated with the latest trends and technologies and continuously enhance their skills to build innovative and high-quality websites that meet the needs of modern users."]
+            ],
+            "text": "Sinan",
+            "date": "10.Oct 2020",
+            "read": "1 Min",
+            "image": "https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_6648d0fbedd1eb21fd161dea_6648d15ae3c5ab7342b92355/scale_1200",
+            "professional": ["Web Developer", "Web Developer Job", "Web Development"] 
+        },
+        {
+            "id": 1,
+            "title": "I am a web developer 2",
+            "content": [
+                ["description", "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "],
+                ["Qwerty", "asdfghjkl lo ad a dad ad ad a d2 d2 d2d244 54 4 5gf hfdhf hfgsef s ghdghdfgseff heaewdf "]
+            ],
+            "text": "Dev",
+            "date": "22.Oct 2022",
+            "read": "2 Min",
+            "image": "https://images.wallpaperscraft.ru/image/single/kod_tekst_raznotsvetnyj_140555_2560x1600.jpg",
+            "professional": ["Programmer", "Digital Marketer", "Web Development"]
+        },
+        {
+            "id": 2,
+            "title": "I am a web developer 3",
+            "content": [
+                ["description", "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "],
+                ["Lorem", "sdwas44444444444444 4444444444 44444  4444 2222222 222222 1111111 33333333 55555555"],
+                ["Qwerty", "asdfghjkl lo ad a dad ad ad a d2 d2 d2d244 54 4 5gf hfdhf hfgsef s ghdghdfgseff heaewdf "]
+            ],
+            "text": "Lesson",
+            "date": "04.Oct 2022",
+            "read": "5 Min",
+            "image": "https://avatars.mds.yandex.net/i?id=4d63ed1316875d2c2af6f4553230f550_l-12149467-images-thumbs&n=13",
+            "professional": ["Digital Marketer", "Programmer", "Web Development"]
+        },
+        {
+            "id": 3,
+            "title": "I am a web developer 4",
+            "content": [
+                ["description", "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "],
+                ["Qwerty", "asdfghjkl lo ad a dad ad ad a d2 d2 d2d244 54 4 5gf hfdhf hfgsef s ghdghdfgseff heaewdf "]
+            ],
+            "text": "Dev",
+            "date": "22.Oct 2022",
+            "read": "2 Min",
+            "image": "https://www.zastavki.com/pictures/originals/2015/Backgrounds_Program_code_background_098930_.png",
+            "professional": ["Support", "Programmer", "Web Development"]
+        },
+        {
+            "id": 4,
+            "title": "I am a web developer 5",
+            "content": [
+                ["description", "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "],
+                ["Qwerty", "asdfghjkl lo ad a dad ad ad a d2 d2 d2d244 54 4 5gf hfdhf hfgsef s ghdghdfgseff heaewdf "]
+            ],
+            "text": "Dev",
+            "date": "22.Oct 2022",
+            "read": "2 Min",
+            "image": "https://images.wallpaperscraft.ru/image/single/kod_bukvy_ekran_137900_2048x1152.jpg",
+            "professional": ["Video Editor", "Programmer", "Web Development"]
+        },
+        {
+            "id": 5,
+            "title": "I am a web developer 6",
+            "content": [
+                ["description", "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "],
+                ["Qwerty", "asdfghjkl lo ad a dad ad ad a d2 d2 d2d244 54 4 5gf hfdhf hfgsef s ghdghdfgseff heaewdf "]
+            ],
+            "text": "Dev",
+            "date": "22.Oct 2022",
+            "read": "2 Min",
+            "image": "https://images.hdqwalls.com/download/eat-sleep-code-repeat-er-2560x1600.jpg",
+            "professional": ["Network Engineer", "Programmer", "Web Development"]
+        },
+        {
+            "id": 6,
+            "title": "I am a web developer 7",
+            "content": [
+                ["description", "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "],
+                ["Qwerty", "asdfghjkl lo ad a dad ad ad a d2 d2 d2d244 54 4 5gf hfdhf hfgsef s ghdghdfgseff heaewdf "]
+            ],
+            "text": "Dev",
+            "date": "22.Oct 2022",
+            "read": "2 Min",
+            "image": "https://avatars.mds.yandex.net/i?id=8faa8b73166987e87ed62ae5975c825d63e35e2c-4120498-images-thumbs&n=13",
+            "professional": ["Zoologist", "Programmer", "Web Development"]
+        },
+        {
+            "id": 7,
+            "title": "I am a web developer 8",
+            "content": [
+                ["description", "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "],
+                ["Qwerty", "asdfghjkl lo ad a dad ad ad a d2 d2 d2d244 54 4 5gf hfdhf hfgsef s ghdghdfgseff heaewdf "]
+            ],
+            "text": "Dev",
+            "date": "22.Oct 2022",
+            "read": "2 Min",
+            "image": "https://avatars.mds.yandex.net/i?id=9440a8338dfe736ebe691c5dfcb365dd_l-4011339-images-thumbs&n=13",
+            "professional": ["Hairdresser", "Programmer", "Web Development"]
+        },
+        {
+            "id": 8,
+            "title": "I am a web developer 9",
+            "content": [
+                ["description", "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "],
+                ["Qwerty", "asdfghjkl lo ad a dad ad ad a d2 d2 d2d244 54 4 5gf hfdhf hfgsef s ghdghdfgseff heaewdf "]
+            ],
+            "text": "Dev",
+            "date": "22.Oct 2022",
+            "read": "2 Min",
+            "image": "https://i.pinimg.com/originals/cb/75/ac/cb75accfd7192db580b56335056fb510.jpg",
+            "professional": ["Business", "Programmer", "Web Development"]
+        },
+        {
+            "id": 9,
+            "title": "I am a web developer 10",
+            "content": [
+                ["description", "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "],
+                ["Qwerty", "asdfghjkl lo ad a dad ad ad a d2 d2 d2d244 54 4 5gf hfdhf hfgsef s ghdghdfgseff heaewdf "]
+            ],
+            "text": "Dev",
+            "date": "22.Oct 2022",
+            "read": "2 Min",
+            "image": "https://avatars.mds.yandex.net/i?id=e602b030d787734ca29e208e47ab56c0_l-5094251-images-thumbs&n=13",
+            "professional": ["Restaurant", "Programmer", "Web Development"]
+        }
+
+    ],
+    "Works": [
+        {
+            "id": 1,
+            "img": "https://s2.radikal.cloud/2024/08/28/site1.jpeg",
+            "url": "https://lipoweradcinema.netlify.app/"
+        },
+        {
+            "id": 2,
+            "img": "https://s2.radikal.cloud/2024/08/28/site2.jpeg",
+            "url": "https://github.com/LiPoWeRaD/searchGit"
+        },
+        {
+            "id": 3,
+            "img": "https://s2.radikal.cloud/2024/08/28/site3.jpeg",
+            "url": "https://github.com/LiPoWeRaD/PorofileDemo"
+        }
+    ]
+}

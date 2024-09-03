@@ -1,12 +1,11 @@
-import logo from "../assets/logo/Logo.svg";
-import SquareUp from "../assets/logo/SquareUp.svg";
+import { NavLink } from "react-router-dom";
 
 const Logo = () => {
     return (
-        <div className="flex items-center gap-x-2 text-[32px] leading-[42px] text-white">
+        <NavLink to="/" className="flex items-center gap-x-2 text-[32px] leading-[42px] text-white outline-none">
             <p className="text-brand-1">{"<C/>"}</p>
             <p>SinanTokmak</p>
-        </div>
+        </NavLink>
     )
 };
 

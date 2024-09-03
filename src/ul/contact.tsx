@@ -9,12 +9,12 @@ interface IColor {
     text?: boolean
 }
 
-const Contact: FC<IColor> = ({ className = "flex justify-center items-center gap-x-2 text-white fill-brand-1", text=true }) => {
+const Contact: FC<IColor> = ({ className = "flex justify-center items-center text-base leading-5 gap-x-2 text-white fill-brand-1", text=true }) => {
     return (
         <>
-            <li><a href="/" className={className} >{<Instagram />}{text && <span>Instagram</span>}</a></li>
-            <li><a href="/" className={className} >{<Discord />}{text && <span>Discord</span>}</a></li>
-            <li><a href="/" className={className} ><GitHub />{text && <span>Github</span>}</a></li>
+            <li><a href="/" className={className} >{<Instagram />}{text && <span className="hidden 2xl:block">Instagram</span>}</a></li>
+            <li><a href="/" className={className} >{<Discord />}{text && <span className="hidden 2xl:block">Discord</span>}</a></li>
+            <li><a href="/" className={className} ><GitHub />{text && <span className="hidden 2xl:block">Github</span>}</a></li>
         </>
     )
 }

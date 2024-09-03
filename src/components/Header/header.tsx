@@ -15,8 +15,8 @@ const Navigation = [
 
 const Header = () => {
     return (
-        <div className="bg-bg1">
-            <div className="py-[20px]">
+        <div className="font-ibm bg-bg1">
+            <div className="container">
                 {headerNavigation(Navigation)}
             </div>
         </div>

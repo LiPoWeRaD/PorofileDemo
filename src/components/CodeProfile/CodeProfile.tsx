@@ -2,8 +2,8 @@ import mail from "../../assets/social/mail.svg"
 
 const CodeProfile = () => {
     return (
-        <div className="flex gap-x-[74px] justify-center items-center">
-            <div className="p-5 flex flex-col text-white w-full h-full text-[64px] leading-[72px]">
+        <div className="flex gap-x-[74px] items-center">
+            <div className="p-5 flex flex-col max-w-[700px] text-white w-full h-full text-[64px] leading-[72px]">
             <code className="text-sm text-brand-1">{`<h1>`}</code>
             <p className="ml-4">Hey</p>
             <p className="ml-4">I’m <span className="text-brand-1">Sinan</span>,</p>
