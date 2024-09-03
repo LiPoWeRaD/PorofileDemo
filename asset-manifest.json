@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/porofiledemo/static/css/main.eed26d4c.css",
+    "main.js": "/porofiledemo/static/js/main.f48bbeca.js",
+    "static/js/453.991e40ab.chunk.js": "/porofiledemo/static/js/453.991e40ab.chunk.js",
+    "static/media/LineBg.svg": "/porofiledemo/static/media/LineBg.1e01eeec44df69b14c43.svg",
+    "static/media/Skills.jpg": "/porofiledemo/static/media/Skills.bc8431f35cee98115461.jpg",
+    "static/media/works.jpeg": "/porofiledemo/static/media/works.2bddbb37ff65424a5e8a.jpeg",
+    "static/media/IBMPlexSans-SemiBold.ttf": "/porofiledemo/static/media/IBMPlexSans-SemiBold.86518e5555423976168f.ttf",
+    "static/media/IBMPlexSans-Medium.ttf": "/porofiledemo/static/media/IBMPlexSans-Medium.30caf0d84ce1532c49c9.ttf",
+    "static/media/IBMPlexSans-Bold.ttf": "/porofiledemo/static/media/IBMPlexSans-Bold.747872b7a6872823fadc.ttf",
+    "static/media/IBMPlexSans-Regular.ttf": "/porofiledemo/static/media/IBMPlexSans-Regular.a14f01f05ff975c28c64.ttf",
+    "static/media/aboutme.jpeg": "/porofiledemo/static/media/aboutme.a2c658f2ebc7f6b23781.jpeg",
+    "static/media/Dual-screen.png": "/porofiledemo/static/media/Dual-screen.04891e224710156a51b1.png",
+    "static/media/Web.png": "/porofiledemo/static/media/Web.a895df053899c1c2e5fc.png",
+    "static/media/react.jpeg": "/porofiledemo/static/media/react.ce093dbd73e1e75be96e.jpeg",
+    "static/media/link.svg": "/porofiledemo/static/media/link.f50e7a4d293528c6f3fcae75e5b18b00.svg",
+    "static/media/map.svg": "/porofiledemo/static/media/map.b19fffe741288e8cb6f09197f34cb0c2.svg",
+    "static/media/Line.svg": "/porofiledemo/static/media/Line.d30cd2304b0750206cccce08ca2ea064.svg",
+    "static/media/briefcase.svg": "/porofiledemo/static/media/briefcase.5be85851f7cb43a5b3f9ca28e77665c1.svg",
+    "static/media/mail.svg": "/porofiledemo/static/media/mail.e1a75f62ed3f250145551ffdfa64a542.svg",
+    "static/media/download.svg": "/porofiledemo/static/media/download.203d971151b8a27467f8e691bae4146a.svg",
+    "static/media/monitor.svg": "/porofiledemo/static/media/monitor.076c41adb1a07b0a506b592aba66077b.svg",
+    "static/media/smartphone.svg": "/porofiledemo/static/media/smartphone.1b51d238bdf91dfc1ec718c1f57a56c9.svg",
+    "static/media/mouse.svg": "/porofiledemo/static/media/mouse.c17539a9d2486a9af2a0648d2ec5d5a2.svg",
+    "static/media/send.svg": "/porofiledemo/static/media/send.b8af91388a3fbbadfe88d3242a237f62.svg",
+    "static/media/arrow.svg": "/porofiledemo/static/media/arrow.3bc20295da3469cda92a701e60c8de86.svg",
+    "index.html": "/porofiledemo/index.html",
+    "static/media/Line2.svg": "/porofiledemo/static/media/Line2.865537bded8414e077dde5c023e4567b.svg",
+    "main.eed26d4c.css.map": "/porofiledemo/static/css/main.eed26d4c.css.map",
+    "main.f48bbeca.js.map": "/porofiledemo/static/js/main.f48bbeca.js.map",
+    "453.991e40ab.chunk.js.map": "/porofiledemo/static/js/453.991e40ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eed26d4c.css",
+    "static/js/main.f48bbeca.js"
+  ]
+}
