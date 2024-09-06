@@ -40,7 +40,7 @@ const BlogInfo = () => {
         setBlogs(state.fetchBlogsReducer.blogs)
         setLoadingBlogs(state.fetchBlogsReducer.loading)
         setErrorBlogs(state.fetchBlogsReducer.error)
-    })
+    })    
 
     return (
         <>
@@ -61,7 +61,9 @@ const BlogInfo = () => {
             {blog && (
                 <div className="flex flex-col mx-auto gap-y-16 py-32 container text-white max-w-[720px]">
                     <h2 className="flex gap-y-4 flex-col justify-center items-center text-[32px] leading-[36px] text-brand-1">{blog.title}</h2>
-                    <InfoDownload text={blog.text} date={blog.date} read={blog.read} />
+                    <div className="border-gray-600 border-y">
+                        <InfoDownload text={blog.text} date={blog.date} read={blog.read} />
+                    </div>
                     <img className="h-[400px] bg-gray-600" src={blog.image} alt="" />
                     <div className="flex flex-col gap-y-8">
                         <ul className="">
@@ -105,10 +107,11 @@ const BlogInfo = () => {
                     <>
                         <div className="flex flex-col mx-auto gap-y-16 py-32 container text-white max-w-[1062px]">
                             <ul className="flex flex-col ">
-                                {blogs.filter((blog) => blog.id !== Number(id)).map((blog, index) => (
+                                {blogs.filter((blog) => Number(blog.id) !== Number(id)).map((blog, index) => (
                                     index < 3 && (
                                         <li key={index} className={`flex py-16 gap-x-16 ${index === 2 ? "border-y-2" : "border-t-2"} border-white`}>
                                         <BlogView blogs={blog} />
+                                        
                                     </li>
                                     )
                                 ))}

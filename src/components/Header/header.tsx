@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import headerNavigation from "../../ul/headerNavigation"
 
 
@@ -16,7 +15,7 @@ const Navigation = [
 const Header = () => {
     return (
         <div className="font-ibm bg-bg1">
-            <div className="container">
+            <div className="xl:container">
                 {headerNavigation(Navigation)}
             </div>
         </div>

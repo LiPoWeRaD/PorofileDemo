@@ -49,7 +49,7 @@ const Blogs = () => {
              {blogs && (
                 <>
                     <button className="mx-auto px-8 py-4 text-xl leading-6 rounded-[32px] text-white border-2 border-brand-1 
-                        focus-visible:bg-brand-1 hover:bg-brand-1 active:bg-brand-3 outline-none">Subscribe My Blogs</button>
+                        focus-visible:bg-brand-1 hover:bg-brand-1 active:bg-brand-3 transition duration-300 ease-in-out outline-none">Subscribe My Blogs</button>
                     <ul className="flex flex-col gap-y-16">
                         {blogs.map((blog, index) => (
                             <li key={blog.id} className={`flex py-16  items-center gap-x-16 border-t-2 border-white${index === 1 ? "border-b-2" : ""}`}>

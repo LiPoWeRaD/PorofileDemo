@@ -15,7 +15,7 @@ const InfoDownload:FC<IBlogs> = ({text, date, read}) => {
                 <p>Date <span className="font-light">{date}</span></p>
                 <p>Read <span className="font-light">{read}</span></p>
             </div>
-            <button className="fill-black p-3 bg-brand-1 rounded-full focus-visible:bg-brand-2 hover:bg-brand-2 active:bg-brand-3 transition-colors duration-300 ease-in-out">
+            <button className="hidden sm:block fill-black p-3 bg-brand-1 rounded-full focus-visible:bg-brand-2 hover:bg-brand-2 active:bg-brand-3 transition-colors duration-300 ease-in-out">
                 <Download />
             </button>
         </div>

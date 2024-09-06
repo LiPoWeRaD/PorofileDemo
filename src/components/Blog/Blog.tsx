@@ -49,7 +49,7 @@ const Blog = () => {
              {blogs && (
                 <>
                     <ul>
-                        <li key={blogs.id} className="flex py-16  items-center gap-x-16 border-t-2 border-white border-y-2">
+                        <li key={blogs.id} className="flex flex-col sm:flex-row py-16 items-center sm:items-start md:items-center gap-x-8 md:gap-x-16 gap-y-8 border-t-2 border-white border-y-2">
                             <BlogView blogs={blogs} />
                         </li>
                     </ul>

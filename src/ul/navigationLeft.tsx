@@ -11,29 +11,40 @@ import LeftList from "./leftList"
 
 
 const NavigationLeft = () => {
-
     useEffect(() => {
         const section = document.querySelectorAll("section");        
         const options = {
             root: null,
-            rootMargin: "0px",
-            threshold: 0.479
+            rootMargin: "-10%",
+            threshold: 0.5
         }
-    
+        
+
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
                 const id = entry.target.getAttribute("id")
                 const nav = document.getElementById(`${id}-nav`)
-                if (entry.isIntersecting) {
+
+                document?.querySelectorAll(".nav-item")?.forEach((navItem) => {
+                    navItem.classList.remove("bg-white");
+                    navItem.getElementsByTagName("a")[0].classList.remove("fill-black");
+                    navItem.getElementsByTagName("a")[0].classList.add("fill-white");
+                });
+                
+
+                if (entry.intersectionRatio > 0) {
+                    // Section is being intersected, update navigation menu
                     nav?.classList.add("bg-white")
-                    nav?.classList.add("fill-black")
-                    nav?.classList.remove("fill-white")
-                } else {
+                    nav?.getElementsByTagName("a")[0].classList.add("fill-black")
+                    nav?.getElementsByTagName("a")[0].classList.remove("fill-white")
+                  } else {
+                    // Section is not being intersected, reset navigation menu
                     nav?.classList.remove("bg-white")
-                    nav?.classList.remove("fill-black")
-                    nav?.classList.add("fill-white")
-                }
+                    nav?.getElementsByTagName("a")[0].classList.remove("fill-black")
+                    nav?.getElementsByTagName("a")[0].classList.add("fill-white")
+                  }
             })
+            
         }, options)
     
         section.forEach((section) => {
@@ -47,7 +58,7 @@ const NavigationLeft = () => {
 
 
     return (
-        <ul className="fixed px-3 py-2 left-[5%] top-1/2 -translate-y-1/2 flex flex-col gap-y-6 border border-white rounded-[40px] bg-bg2">
+        <ul className="hidden lg:flex flex-col gap-y-6 fixed px-3 py-2 left-[5%] top-1/2 -translate-y-1/2 border border-white rounded-[40px] bg-bg2">
             <LeftList itemA={['main', 'about', 'skills', 'works', 'blogs', 'contact']} itemB={[NavHeader(), NavAboutMe(), NavSkills(), NavWorks(), NavBlogs(), NavContact()]} />
         </ul>
     )

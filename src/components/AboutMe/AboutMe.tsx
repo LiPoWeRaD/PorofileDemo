@@ -6,7 +6,7 @@ const AboutMe = () => {
     return (
         <div className="flex flex-col py-32 container mx-auto">
             <Mouse className="mb-32" />
-            <div className="flex ml-14 gap-x-32 justify-center items-center">
+            <div className="flex ml-14 gap-x-32 flex-col gap-y-32 xl:flex-row justify-center items-center">
                 <div className="flex flex-col items-start">
                     <p className="flex  mb-16 text-[64px] leading-[74px] text-white border-4 border-brand-1 px-10 py-4 rounded-ss-[40px] rounded-ee-[40px] bg-bg1">About me</p>
                     <div className="px-10 py-[58px] bg-bg1 rounded-[40px] max-w-[880px]">

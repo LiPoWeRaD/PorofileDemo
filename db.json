@@ -61,7 +61,9 @@
             "title": "I am a web developer 5",
             "content": [
                 ["description", "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "],
-                ["Qwerty", "asdfghjkl lo ad a dad ad ad a d2 d2 d2d244 54 4 5gf hfdhf hfgsef s ghdghdfgseff heaewdf "]
+                ["Qwerty", "asdfghjkl lo ad a dad ad ad a d2 d2 d2d244 54 4 5gf hfdhf hfgsef s ghdghdfgseff heaewdf "],
+                ["Lorem", "sdwas44444444444444 4444444444 44444  4444 2222222 222222 1111111 33333333 55555555"]
+                
             ],
             "text": "Dev",
             "date": "22.Oct 2022",

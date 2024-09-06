@@ -1,7 +1,9 @@
 
 
 const NavAboutMe = () => {
-
+    // bg-white
+    // fill-black
+    // fill-white
     return (
         <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <defs>
