@@ -78,7 +78,7 @@ const BlogInfo = () => {
                             )
                         }
                         </ul>
-                        <ul className="flex gap-x-6 items-center text-sm leading-4 text-white">
+                        <ul className="flex flex-wrap gap-6 items-center text-sm leading-4 text-white">
                             {blog.professional.map((professional, index) => (
                                 <li key={index} className="px-2 py-1 rounded-full bg-grey">{professional}</li>
                             ))}
