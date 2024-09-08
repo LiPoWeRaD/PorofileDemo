@@ -22,7 +22,7 @@ const Skills = () => {
                 <Mouse serviceCard={{ title: "Skills", description: 'I am striving to never stop learning and improving' }} />
                 <code className="absolute hidden md:block ml-[80%] xl:ml-[40%] text-[168px] leading-[193px] text-brand-1">{`</>`}</code>
             </div>
-            <div className="flex flex-col md:flex-col mb-[90px] justify-center items-center gap-x-36 gap-y-8">
+            <div className="flex flex-col md:flex-row mb-[90px] justify-center items-center gap-x-36 gap-y-8">
                 <ServicesCard icon={monitor} title={"web developement"} description={["HTML", "·", "CSS", "·", "JS", "·", "REACT"]} />
                 <ServicesCard icon={smartphone} title={"App developement"} description={["IOS", "·", "Android"]} />
             </div>
